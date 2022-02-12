@@ -16,8 +16,10 @@ function App() {
 
   return (
     <div className="App">
-      { colorMap }
-      <ColorForm addColor={addColor}></ColorForm>
+      <div className='color-display-main'>
+        { colorMap }
+        <ColorForm addColor={addColor}></ColorForm>
+      </div>
     </div>
   );
 }

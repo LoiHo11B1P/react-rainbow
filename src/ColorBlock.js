@@ -1,4 +1,5 @@
 import React from 'react'
+import './ColorBlock.css';
 
 function ColorBlock(props) {
     return (
